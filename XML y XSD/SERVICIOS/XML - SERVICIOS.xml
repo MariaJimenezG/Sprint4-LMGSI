@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gamestore>
+    <game category="simulator">
+        <title>Cities: Skylines</title>
+        <editor>Colosal Order Ltd.</editor>
+        <year>2015</year>
+        <price>7</price>
+    </game>
+    <game category="action">
+        <title>Red Dead Redemption 2</title>
+        <editor>Rockstar Games</editor>
+        <year>2019</year>
+        <price>30</price>
+    </game>
+    <game category="strategy">
+        <title>Sid Meier's Civilization VI</title>
+        <editor>2K</editor>
+        <year>2016</year>
+        <price>9</price>
+    </game>
+    <game category="action">
+        <title>DJMAX RESPECT V</title>
+        <editor>NEOWIZ</editor>
+        <year>2020</year>
+        <price>12</price>
+    </game>
+    <game category="action">
+        <title>Dishonored 2</title>
+        <editor>Bethesda Softworks</editor>
+        <year>2016</year>
+        <price>6</price>
+    </game>
+    <game category="sports">
+        <title>NBA 2K22</title>
+        <editor>2K</editor>
+        <year>2021</year>
+        <price>24</price>
+    </game>
+    <game category="action">
+        <title>Hidden Deep</title>
+        <editor>Deadalic Entertainment</editor>
+        <year>2022</year>
+        <price>18</price>
+    </game>
+    <game category="casual">
+        <title>Unpacking</title>
+        <editor>Humble Games</editor>
+        <year>2021</year>
+        <price>16</price>
+    </game>
+    <game category="adventure">
+        <title>Nobody Saves the World</title>
+        <editor>DrinkBox Studios</editor>
+        <year>2022</year>
+        <price>19</price>
+    </game>
+    <game category="action">
+        <title> Bioshock Infinite</title>
+        <editor>2K</editor>
+        <year>2013</year>
+        <price>7</price>
+    </game>
+</gamestore>
