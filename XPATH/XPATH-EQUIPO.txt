@@ -1,0 +1,42 @@
+
+1. Mostrar los jugadores del segundo equipo
+
+//equipos/equipo[2]/jugador
+
+
+2. Mostrar sólo los jugadores principales de todos equipos
+
+//equipos/equipo/jugador[categoría="principal"]/nombre
+
+
+3. Mostrar los jugadores con un sueldo MAYOR a 1500 euros
+
+//equipos/equipo/jugador[sueldo>1500]/nombre
+
+
+4. Mostrar el equipo cuyo ranking sea igual a 1.
+
+//equipos/equipo[posicion=1]/nombreequipo
+
+
+5. Mostrar sólo el nombre de los equipos y su ranking
+
+//equipos/equipo/nombreequipo | //posicion
+
+
+6. Haz 3 consultas más sobre lo que quieras. Especifica que es lo que estás consultando:
+
+*Nombre de los jugadores mayores de 22 años.*
+
+//equipos/equipo/jugador[edad>22]/nombre
+
+
+*Muestra el sueldo MENOR a 1500 euros y el nombre de sus correspondientes jugadores*
+
+//equipos/equipo/jugador[sueldo<1500]/nombre | //jugador[sueldo<1500]/sueldo
+
+
+*Muestra el nombre de todos los equipos*
+
+//equipos/equipo/nombreequipo
+
