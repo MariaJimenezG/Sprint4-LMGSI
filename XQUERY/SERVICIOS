@@ -10,7 +10,7 @@ doc("XML - SERVICIOS.xml")//gamestore/game/title/text()
 doc("XML - SERVICIOS.xml")//gamestore/game[last()]
 
 
-3- Mostrar sólo el título y el precio de los servicios de la categoría que elijas
+3-Mostrar sólo el título y el precio de los servicios de la categoría que elijas
 
 
 for $game in doc("XML - SERVICIOS.xml")//gamestore/game
