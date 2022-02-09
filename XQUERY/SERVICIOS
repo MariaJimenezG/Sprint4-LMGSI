@@ -1,0 +1,45 @@
+1- Mostrar sólo el título de todos los servicios
+
+
+doc("XML - SERVICIOS.xml")//gamestore/game/title/text()
+
+
+2- Mostrar el último servicio de la lista
+
+
+doc("XML - SERVICIOS.xml")//gamestore/game[last()]
+
+
+3- Mostrar sólo el título y el precio de los servicios de la categoría que elijas
+
+
+for $game in doc("XML - SERVICIOS.xml")//gamestore/game
+where $game/@category="action"
+return $game/title/text() | $game/price/text()
+
+
+4- Haz 3 consultas más sobre lo que quieras
+
+
+****Mostrar sólo los juegos de 2022 en orden alfabético****
+
+for $game in doc("XML - SERVICIOS.xml")//gamestore/game
+where $game/year=2022
+order by $game/title
+return $game/title/text()
+
+
+*****Mostrar editor de los titulos de categoria acción****
+
+
+for $game in doc("XML - SERVICIOS.xml")//gamestore/game
+where $game/@category="action"
+return $game/editor/text()
+
+
+*****Mostrar titulo de todos los juegos y si valen + de 20€, mostrar el precio tambien*******
+
+for $game in doc("XML - SERVICIOS.xml")//gamestore/game
+return if ($game/price>20)
+then data($game/title | $game/price)
+else data($game/title)
