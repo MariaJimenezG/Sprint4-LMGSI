@@ -1,0 +1,49 @@
+1- Solo postres
+
+for $postre in doc("restaurante.xml")//restaurante/menu/plato
+where $postre/@class="Postre"
+return $postre
+
+2- Todos los platos que tengan un precio menos de 10 euros
+
+for $precio in doc("restaurante.xml")//restaurante/menu/plato
+where $precio/number(precio) < 10
+return $precio
+
+3- Todos los platos que tengan como ingrediente pescado
+
+for $postre in doc("restaurante.xml")//restaurante/menu/plato
+where $postre/ingredientes="pescado"
+return $postre
+
+4-El ultimo plato de la lista
+
+doc("restaurante.xml")//restaurante/menu/plato[last()]
+
+5-Sólo el nombre de todos los platos
+
+for $nombre in doc("restaurante.xml")//restaurante/menu/plato/nombre/text()
+return $nombre
+
+6-Sólo el nombre y el primer ingrediente de todos los platos
+
+
+7-Haz 3 consultas más sobre lo que quieras
+
+Ordenar los platos por precio descendente
+
+for $precioDescendente in doc("restaurante.xml")//restaurante/menu/plato
+order by $precioDescendente/number(precio) descending 
+return $precioDescendente
+
+Ordenar por nombre ascendente
+
+for $precioDescendente in doc("restaurante.xml")//restaurante/menu/plato
+order by $precioDescendente/nombre ascending
+return $precioDescendente
+
+Mostrar solo los platos de entante
+
+for $platoEntrante in doc("restaurante.xml")//restaurante/menu/plato
+where $platoEntrante/@class = "Entrante"
+return $platoEntrante
