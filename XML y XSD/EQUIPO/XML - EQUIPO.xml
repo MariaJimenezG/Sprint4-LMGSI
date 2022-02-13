@@ -5,72 +5,58 @@
   
      <nombreequipo lang="es">Los palomos de Huelin</nombreequipo>
      <posicion>3</posicion>
+     <ListaJug>
      
 
-    <jugador tipo="suplente">
-      <jugador>Jugador 1</jugador>
+    <jugador category="suplente">
       <nombre>Alejandro Peña</nombre>
       <edad>19</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
     
 
-    <jugador tipo="principal">
-      <jugador>Jugador 2</jugador>
+    <jugador category="principal">
       <nombre>Miguel de la Fuente</nombre>
       <edad>23</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
     </jugador>
 
-   <jugador tipo="principal">
-      <jugador>Jugador 3</jugador>
-      <nombre>Ignacio Pérez</nombre>
+    <jugador category="principal">
+       <nombre>Ignacio Pérez</nombre>
       <edad>18</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
    </jugador>
 
-    <jugador tipo="principal"> 
-      <jugador>Jugador 4</jugador>
+    <jugador category="principal">
       <nombre>Adolfo Sánchez</nombre>
       <edad>22</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
     </jugador>
 
-    <jugador tipo="principal"> 
-      <jugador>Jugador 5</jugador>
+    <jugador category="principal">
       <nombre>Artsiom Pavlovich</nombre>
       <edad>25</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
     </jugador>
 
-    <jugador tipo="suplente"> 
-      <jugador>Jugador 6</jugador>
+    <jugador category="suplente">
       <nombre>Marta Fernández</nombre>
       <edad>19</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
 
-    <jugador tipo="suplente"> 
-      <jugador>Jugador 7</jugador>
+    <jugador category="suplente">
       <nombre>Fernando Gutiérrez</nombre>
       <edad>19</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
 
-    <jugador tipo="suplente"> 
-      <jugador>Jugador 8</jugador>
+   <jugador category="suplente">
       <nombre>Pedro Pan</nombre>
       <edad>23</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
+    </ListaJug>
   </equipo>
 
 
@@ -78,72 +64,58 @@
   
      <nombreequipo lang="es">Las langostas del Palo</nombreequipo>
      <posicion>4</posicion>
+     <ListaJug>
      
 
-    <jugador tipo="suplente">
-      <jugador>Jugador 1</jugador>
+    <jugador category="suplente">
       <nombre>Lucía Pérez</nombre>
       <edad>19</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
     
 
-    <jugador tipo="principal">
-      <jugador>Jugador 2</jugador>
+    <jugador category="principal">
       <nombre>Pablo López</nombre>
       <edad>23</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
     </jugador>
 
-   <jugador tipo="principal">
-      <jugador>Jugador 3</jugador>
+   <jugador category="principal">
       <nombre>Olga Lucena</nombre>
       <edad>18</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
    </jugador>
 
-    <jugador tipo="principal"> 
-      <jugador>Jugador 4</jugador>
+   <jugador category="principal">
       <nombre>Teresa Gil</nombre>
       <edad>22</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
     </jugador>
 
-    <jugador tipo="principal"> 
-      <jugador>Jugador 5</jugador>
+   <jugador category="principal">
       <nombre>Fernando De La Cruz</nombre>
       <edad>25</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
     </jugador>
 
-    <jugador tipo="suplente"> 
-      <jugador>Jugador 6</jugador>
+    <jugador category="suplente">
       <nombre>Juan Benito</nombre>
       <edad>19</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
 
-    <jugador tipo="suplente"> 
-      <jugador>Jugador 7</jugador>
+    <jugador category="suplente">
       <nombre>Esteban Cuesta</nombre>
       <edad>19</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
 
-    <jugador tipo="suplente"> 
-      <jugador>Jugador 8</jugador>
+    <jugador category="suplente"> 
       <nombre>Mauricio Del Rey</nombre>
       <edad>23</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
+    </ListaJug>
 
   </equipo>
 
@@ -151,72 +123,57 @@
   
      <nombreequipo lang="es">Los tigres del Puerto de la Torre </nombreequipo>
      <posicion>2</posicion>
+     <ListaJug>
      
-
-    <jugador tipo="suplente">
-      <jugador>Jugador 1</jugador>
+    <jugador category="suplente"> 
       <nombre>Adrián Ruesca</nombre>
       <edad>19</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
     
-
-    <jugador tipo="principal">
-      <jugador>Jugador 2</jugador>
+    
+   <jugador category="principal">
       <nombre>Daniel Aguayo</nombre>
       <edad>23</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
     </jugador>
 
-   <jugador tipo="principal">
-      <jugador>Jugador 3</jugador>
+   <jugador category="principal">
       <nombre>Adrián García</nombre>
       <edad>18</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
    </jugador>
 
-    <jugador tipo="principal"> 
-      <jugador>Jugador 4</jugador>
+    <jugador category="principal">
       <nombre>Iván López</nombre>
       <edad>22</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
     </jugador>
 
-    <jugador tipo="principal"> 
-      <jugador>Jugador 5</jugador>
+    <jugador category="principal">
       <nombre>Lorena Fernández</nombre>
       <edad>25</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
     </jugador>
 
-    <jugador tipo="suplente"> 
-      <jugador>Jugador 6</jugador>
+     <jugador category="suplente"> 
       <nombre>Antonio Jiménez</nombre>
       <edad>19</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
 
-    <jugador tipo="suplente"> 
-      <jugador>Jugador 7</jugador>
+     <jugador category="suplente"> 
       <nombre>Jorge Garcés</nombre>
       <edad>19</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
 
-    <jugador tipo="suplente"> 
-      <jugador>Jugador 8</jugador>
+     <jugador category="suplente"> 
       <nombre>Lucía Alma</nombre>
       <edad>23</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
+    </ListaJug>
 
   </equipo>
 
@@ -224,71 +181,57 @@
   
      <nombreequipo lang="es">Los lagartos de Campanillas</nombreequipo>
      <posicion>1</posicion>
+     <ListaJug>
      
 
-    <jugador tipo="suplente">
-      <jugador>Jugador 1</jugador>
+     <jugador category="suplente"> 
       <nombre>Fabio Soares</nombre>
       <edad>19</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
     
 
-    <jugador tipo="principal">
-      <jugador>Jugador 2</jugador>
+    <jugador category="principal"> 
       <nombre>Manuel Hernández</nombre>
       <edad>23</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
     </jugador>
 
-   <jugador tipo="principal">
-      <jugador>Jugador 3</jugador>
+   <jugador category="principal"> 
       <nombre>Guilllermo Robles</nombre>
       <edad>18</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
    </jugador>
 
-    <jugador tipo="principal"> 
-      <jugador>Jugador 4</jugador>
+   <jugador category="principal"> 
       <nombre>Juan del Fresno</nombre>
       <edad>22</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
     </jugador>
 
-    <jugador tipo="principal"> 
-      <jugador>Jugador 5</jugador>
+    <jugador category="principal"> 
       <nombre>Tomás Frisón</nombre>
       <edad>25</edad>
-      <categoría>principal</categoría>
       <sueldo>1.700</sueldo>
     </jugador>
 
-    <jugador tipo="suplente"> 
-      <jugador>Jugador 6</jugador>
+    <jugador category="principal"> 
       <nombre>Hugo Cañas</nombre>
       <edad>19</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
 
-    <jugador tipo="suplente"> 
-      <jugador>Jugador 7</jugador>
+    <jugador category="suplente"> 
       <nombre>Víctor Sánchez</nombre>
       <edad>19</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
 
-    <jugador tipo="suplente"> 
-      <jugador>Jugador 8</jugador>
+    <jugador category="suplente"> 
       <nombre>Sasha Kratsov</nombre>
       <edad>23</edad>
-      <categoría>suplente</categoría>
       <sueldo>1.300</sueldo>
     </jugador>
+    </ListaJug>
   </equipo>
 </equipos>  
