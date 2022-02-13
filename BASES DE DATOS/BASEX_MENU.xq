@@ -2,7 +2,7 @@
   <menu>
     <plato class="Entrante">
       <nombre>Gazpacho natural</nombre>
-      <precio>8€</precio>
+      <precio>8</precio>
       <ingredientes>aceite de oliva</ingredientes>
       <ingredientes>vinagre</ingredientes>
       <ingredientes>agua</ingredientes>
@@ -15,21 +15,21 @@
     </plato>
     <plato class="Entrante">
       <nombre>Ensalada de esparragos y nabo</nombre>
-      <precio>8,50€</precio>
+      <precio>8,50</precio>
       <ingredientes>lechuga</ingredientes>
       <ingredientes>esparragos</ingredientes>
       <ingredientes>nabo</ingredientes>
     </plato>
     <plato class="Entrante">
       <nombre>Jamón,chorizo y queso</nombre>
-      <precio>7€</precio>
+      <precio>7</precio>
       <ingredientes>Jamón</ingredientes>
       <ingredientes>chorizo</ingredientes>
       <ingredientes>queso</ingredientes>
     </plato>
     <plato class="Principal">
       <nombre>Anguila teriyaki con sésamo</nombre>
-      <precio>18€</precio>
+      <precio>18</precio>
       <ingredientes>1 anguila</ingredientes>
       <ingredientes>sésamo tostado</ingredientes>
       <ingredientes>salsa de soja</ingredientes>
@@ -40,7 +40,7 @@
     </plato>
     <plato class="Principal">
       <nombre>Rollitos de Roast beef</nombre>
-      <precio>17,36€</precio>
+      <precio>17,36</precio>
       <ingredientes>lomo de ternera</ingredientes>
       <ingredientes>azúcar moreno</ingredientes>
       <ingredientes>especias variadas</ingredientes>
@@ -55,7 +55,7 @@
     </plato>
     <plato class="Principal">
       <nombre>Morcillo con puré de batata</nombre>
-      <precio>16€</precio>
+      <precio>16</precio>
       <ingredientes>Carne de morcillo de ternera</ingredientes>
       <ingredientes>batata</ingredientes>
       <ingredientes>cebolla</ingredientes>
@@ -72,7 +72,7 @@
     </plato>
     <plato class="Principal">
       <nombre>Muslitos de pollo al sésamo</nombre>
-      <precio>17€</precio>
+      <precio>17</precio>
       <ingredientes>muslitos de pollo</ingredientes>
       <ingredientes>Miel de flores</ingredientes>
       <ingredientes>Salsa de soja</ingredientes>
@@ -81,7 +81,7 @@
     </plato>
     <plato class="Postre">
       <nombre>Arroz con leche vegano</nombre>
-      <precio>10€</precio>
+      <precio>10</precio>
       <ingredientes>Obleas BUITONI</ingredientes>
       <ingredientes>arroz con leche</ingredientes>
       <ingredientes>canela en polvo</ingredientes>
@@ -89,7 +89,7 @@
     </plato>
     <plato class="Postre">
       <nombre>Buñuelos</nombre>
-      <precio>8€</precio>
+      <precio>8</precio>
       <ingredientes>Chocolate Negro NESTLÉ</ingredientes>
       <ingredientes>agua</ingredientes>
       <ingredientes>masa choux</ingredientes>
@@ -105,7 +105,7 @@
     </plato>
     <plato class="Postre">
       <nombre>Brownie</nombre>
-      <precio>8€</precio>
+      <precio>8</precio>
       <ingredientes>Chocolate con Leche NESTLÉ</ingredientes>
       <ingredientes>huevos</ingredientes>
       <ingredientes>mantequilla</ingredientes>
